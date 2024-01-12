@@ -20,6 +20,6 @@ def http_trigger_git(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
         return func.HttpResponse(
-            "This is a test created by santosh",
+            "This is a demo of azure function by santosh",
              status_code=200
         )
